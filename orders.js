@@ -57,8 +57,8 @@ class Ticket {
     customer: 575
 */
 
-const testClass = new Ticket(["pizza","bread","soda"], "7:03 PM", "575");
-console.log(testClass);
+const firstTicket = new Ticket(["pizza","bread","soda"], "7:03 PM", "575");
+console.log(firstTicket);
 
 
 /*
@@ -67,4 +67,4 @@ console.log(testClass);
     'cooking'
 */
 
-testClass.updateStatus("cooking");
+firstTicket.updateStatus("cooking");
